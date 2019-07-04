@@ -1,0 +1,32 @@
+.cards {    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 70vh;
+    overflow-y: scroll;
+}
+.card {
+    background-color: rgb(159, 243, 159);
+    border-radius: 1rem;
+    margin: 2rem;
+    max-width: 18rem;
+    text-align: center;
+    padding: 1rem;
+    transition: all .5s;
+}
+.card:hover {
+    transform: scale(1.05)
+}
+.name {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+figure {
+    width: 15rem;
+    height: auto;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
